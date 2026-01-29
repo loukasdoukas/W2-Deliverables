@@ -11,15 +11,17 @@ For each combination of AGN model family and host-galaxy type, the following fil
 
 - A data container with all simulated galaxies:  
   `random_sampling_galaxies_AGN{X}_HOST{Y}.npz`
+  (available via OneDrive due to file size limitations on GitHub)
 
 - A plot showing the ensemble of SEDs (all galaxies in the dataset):  
-  `random_sampling_galaxies_AGN{X}_HOST{Y}_random_seds_plot.png`
+  `random_sed_plots/random_sampling_galaxies_AGN{X}_HOST{Y}_random_seds_plot.png`
 
 - A synthetic photometry plot for one randomly selected galaxy from the dataset:  
-  `random_sampling_galaxies_AGN{X}_HOST{Y}_one_random_galaxy_photometry.png`
+  `photometric_filters_plots/random_sampling_galaxies_AGN{X}_HOST{Y}_one_random_galaxy_photometry.png`
 
 - A metadata file with detailed physical parameters for every simulated galaxy:  
-  `random_sampling_galaxies_AGN{X}_HOST{Y}_metadata.txt`
+  `metadata/random_sampling_galaxies_AGN{X}_HOST{Y}_metadata.txt`
+  (provided in .zip format due to file size limitations)
 
 In total, 8 datasets are delivered:
 
@@ -103,6 +105,8 @@ Each file `random_sampling_galaxies_AGN{X}_HOST{Y}.npz` contains numerical array
 - Component activation flags (ON/OFF for starburst and polar dust)
 
 These files represent the scientific data products and can be used for further analysis, simulations, or machine-learning applications.
+
+Due to their large size, the .npz files are not hosted directly on GitHub and are instead provided via OneDrive.
 
 ---
 
